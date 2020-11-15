@@ -12,7 +12,7 @@
 
 [class*="col-"] {
   float: left;
-  padding: 15px;
+  padding: 2px;
 }
 
 html {
@@ -25,9 +25,10 @@ img {
 }
 
 .header {
-  background-color: #9933cc;
+  background-color: #163C6F;
   color: #ffffff;
   padding: 5px;
+  text-align: center;
 }
 
 .menu ul {
@@ -39,26 +40,42 @@ img {
 .menu li {
   padding: 7px;
   margin-bottom: 4px;
-  background-color: #33b5e5;
+  background-color: #0E331D;
   color: #ffffff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .menu li:hover {
-  background-color: #0099cc;
+  background-color: #187940;
 }
 
 .aside {
-  background-color: lightgrey;
-  padding: 15px;
+  background-color: #31517D;
+  padding: 8px;
   color: #ffffff;
   text-align: center;
   font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  position: sticky;
+  top: 0;
 }
 
+.aside2 {
+  background-color: #31517D;
+  padding: 8px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  position: sticky;
+  top: 0;
+}
+
+.aside a {
+  color: white;
+}
+
+
 .footer {
-  background-color: #0099cc;
+  background-color: #1C1644;
   color: #ffffff;
   text-align: center;
   padding: 5px;
@@ -85,6 +102,10 @@ img {
   }
   .menu li {
     text-align: center;
+  }
+
+  .aside2 {
+    display: none;
   }
 }
 
